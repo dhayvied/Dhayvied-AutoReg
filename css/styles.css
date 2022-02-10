@@ -1,0 +1,71 @@
+body {
+  background-image: url("img1.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: arial;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdwn {
+  margin: 0 auto;
+}
+
+nav {
+  height: 60px;
+  background: #96CEB4;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  background: #96CEB4;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 15px;
+  color: #2C3333;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 40px;
+  font-family: freestyle script;
+}
+
+nav ul li a:hover {
+  background: #219F94;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+
+nav ul li:hover>ul {
+  display: block;
+}
+
+nav ul ul li {
+  width: 220px;
+  float: none;
+  display: list-item;
+  position: relative;
+  border-radius: 0 0 4px 4px;
+}
+
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 220px;
+  border-radius: 0 4px 4px 4px;
+}
